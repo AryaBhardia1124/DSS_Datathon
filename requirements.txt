@@ -16,3 +16,5 @@ plotly
 
 python-dotenv
 tqdm
+
+google.generativeai
