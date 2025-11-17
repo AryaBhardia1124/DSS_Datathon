@@ -34,7 +34,7 @@ st.write("Input your preferences to find colleges that best match your needs.")
 st.header("Preferences")
 
 all_states = sorted(college_df['State'].unique())
-desired_state = st.selectbox("Desired State", all_states)
+desired_state = st.selectbox("Desired State", ["Any"] + all_states)
 home_state = st.selectbox("Home State", all_states)
 
 if desired_state == home_state:

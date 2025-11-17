@@ -65,7 +65,8 @@ def rank_colleges(df, information):
      gender, international_student, race, student_parent, major, age, estimated_income, top_k) = information
 
     df = df.copy()
-    df = df[df["State"] == desired_state]
+    if desired_state != "Any":
+        df = df[df["State"] == desired_state]
 
     if msi_type != "Any":
         df = df[df["MSI Type"] == msi_type]
