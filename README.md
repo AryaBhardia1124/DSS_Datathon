@@ -2,16 +2,6 @@
 
 A comprehensive college recommendation system that helps students find colleges that best match their preferences, financial situation, and personal circumstances. The tool uses a weighted scoring algorithm combined with AI-powered personalized summaries to provide tailored college recommendations.
 
-## 📋 Table of Contents
-
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Data](#data)
-- [Technologies](#technologies)
-- [How It Works](#how-it-works)
-
 ## ✨ Features
 
 - **Personalized College Matching**: Rank colleges based on multiple factors including:
