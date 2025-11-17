@@ -5,6 +5,7 @@ xgboost
 torch
 
 streamlit
+Interesting
 
 transformers
 sentence-transformers
@@ -18,3 +19,4 @@ python-dotenv
 tqdm
 
 google.generativeai
+
